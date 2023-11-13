@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+#con1{
+    max-width: 550px;
+    background-color: gainsboro;
+    border: 0;
+    font-family: sans-serif;
+    padding: 20px;
+}
+#c1,#f1,#k1,#b1
+{
+    flex:5;
+    height:60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline:none;
+    padding: 0 10px;
+    background-color: gainsboro;
+
+}
+input,button{
+    flex: 5;
+    height:30px;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+#icon1,#icon2,#icon3{
+    flex: 1;
+    height:60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 23px;
+    background-color:black;
+    color: white;
+    border-radius: 0 8px 8px 0;
+}
